@@ -1,0 +1,5 @@
+see_config.json
+shapes/
+__pycache__/
+*.pyc
+__ck_*.png

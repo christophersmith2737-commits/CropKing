@@ -1,0 +1,31 @@
+{
+    "_说明": "裁图王 / see.py 通用视觉模型配置。三选一即可。",
+
+    "_Doubao火山引擎": {
+        "api_key": "ark-xxxxxxxxxxxxx",
+        "model": "doubao-seed-2-0-pro-260215",
+        "endpoint": "https://ark.cn-beijing.volces.com/api/v3/responses",
+        "proxy": "http://127.0.0.1:7897"
+    },
+
+    "_OpenAI_GPT4V": {
+        "api_key": "sk-xxxxxxxxxxxxx",
+        "model": "gpt-4o",
+        "endpoint": "https://api.openai.com/v1/chat/completions",
+        "proxy": ""
+    },
+
+    "_Anthropic_Claude": {
+        "api_key": "sk-ant-xxxxxxxxxxxxx",
+        "model": "claude-sonnet-4-6",
+        "endpoint": "https://api.anthropic.com/v1/messages",
+        "proxy": ""
+    },
+
+    "_其他OpenAI兼容_DeepSeek_Qwen等": {
+        "api_key": "your-key",
+        "model": "your-model",
+        "endpoint": "https://your-api.com/v1/chat/completions",
+        "proxy": ""
+    }
+}
